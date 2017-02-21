@@ -18,24 +18,33 @@
 x64/
 x86/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 build/
 bld/
 [Bb]in/
 [Oo]bj/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
@@ -96,12 +105,15 @@ ipch/
 *.aps
 *.ncb
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.opensdf
 *.sdf
 *.cachefile
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 *.opendb
 *.opensdf
 *.sdf
@@ -113,11 +125,14 @@ ipch/
 *.sdf
 *.cachefile
 >>>>>>> Initial commit
+<<<<<<< HEAD
 =======
 *.opensdf
 *.sdf
 *.cachefile
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 
 # Visual Studio profiler
@@ -178,26 +193,35 @@ publish/
 *.[Pp]ublish.xml
 *.azurePubxml
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 # TODO: Comment the next line if you want to checkin your web deploy settings
 =======
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 >>>>>>> Initial commit
+<<<<<<< HEAD
 =======
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 # Microsoft Azure Web App publish settings. Comment the next line if you want to
 # checkin your Azure Web App publish settings, but sensitive information contained
 # in these scripts will be unencrypted
@@ -205,8 +229,11 @@ PublishScripts/
 
 =======
 >>>>>>> Initial commit
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 # NuGet Packages
 *.nupkg
@@ -217,9 +244,12 @@ PublishScripts/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 # NuGet v3's project.json files produces more ignoreable files
 *.nuget.props
 *.nuget.targets
@@ -238,8 +268,11 @@ BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 
 # Windows Azure Build Output
@@ -249,8 +282,11 @@ csx/
 # Windows Store app package directory
 AppPackages/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
@@ -268,12 +304,17 @@ ClientBin/
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [Ss]tyle[Cc]op.*
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
 [Ss]tyle[Cc]op.*
+=======
+[Ss]tyle[Cc]op.*
+>>>>>>> Initial commit
+>>>>>>> Initial commit
 ~$*
 *~
 *.dbmdl
@@ -284,17 +325,23 @@ node_modules/
 orleans.codegen.cs
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
 
 =======
 >>>>>>> Initial commit
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 # RIA/Silverlight projects
 Generated_Code/
@@ -320,16 +367,22 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 # GhostDoc plugin setting file
 *.GhostDoc.xml
 
 =======
 >>>>>>> Initial commit
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
@@ -348,9 +401,12 @@ FakesAssemblies/
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 
 # Paket dependency manager
 .paket/paket.exe
@@ -364,6 +420,9 @@ paket-files/
 *.sln.iml
 =======
 >>>>>>> Initial commit
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
