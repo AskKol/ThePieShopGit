@@ -18,8 +18,6 @@
 x64/
 x86/
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <<<<<<< HEAD
 bld/
 [Bb]in/
@@ -28,17 +26,13 @@ bld/
 =======
 =======
 >>>>>>> Initial commit
->>>>>>> Initial commit
 build/
 bld/
 [Bb]in/
 [Oo]bj/
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 >>>>>>> Initial commit
 =======
->>>>>>> Initial commit
 >>>>>>> Initial commit
 
 # Visual Studio 2015 cache/options directory
@@ -96,11 +90,6 @@ ipch/
 *.aps
 *.ncb
 <<<<<<< HEAD
-*.opensdf
-*.sdf
-*.cachefile
-=======
-<<<<<<< HEAD
 <<<<<<< HEAD
 *.opendb
 *.opensdf
@@ -117,7 +106,6 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
->>>>>>> Initial commit
 >>>>>>> Initial commit
 
 # Visual Studio profiler
@@ -178,9 +166,6 @@ publish/
 *.[Pp]ublish.xml
 *.azurePubxml
 <<<<<<< HEAD
-# TODO: Comment the next line if you want to checkin your web deploy settings 
-=======
-<<<<<<< HEAD
 <<<<<<< HEAD
 # TODO: Comment the next line if you want to checkin your web deploy settings
 =======
@@ -189,13 +174,10 @@ publish/
 =======
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 >>>>>>> Initial commit
->>>>>>> Initial commit
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
 
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Microsoft Azure Web App publish settings. Comment the next line if you want to
@@ -207,7 +189,6 @@ PublishScripts/
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
->>>>>>> Initial commit
 # NuGet Packages
 *.nupkg
 # The packages folder can be ignored because of Package Restore
@@ -216,8 +197,6 @@ PublishScripts/
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 # NuGet v3's project.json files produces more ignoreable files
@@ -240,7 +219,6 @@ _pkginfo.txt
 =======
 =======
 >>>>>>> Initial commit
->>>>>>> Initial commit
 
 # Windows Azure Build Output
 csx/
@@ -249,11 +227,8 @@ csx/
 # Windows Store app package directory
 AppPackages/
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 >>>>>>> Initial commit
 =======
->>>>>>> Initial commit
 >>>>>>> Initial commit
 
 # Visual Studio cache files
@@ -265,15 +240,13 @@ AppPackages/
 # Others
 ClientBin/
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 [Ss]tyle[Cc]op.*
 >>>>>>> Initial commit
 =======
->>>>>>> Initial commit
 [Ss]tyle[Cc]op.*
+>>>>>>> Initial commit
 ~$*
 *~
 *.dbmdl
@@ -284,8 +257,6 @@ node_modules/
 orleans.codegen.cs
 
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <<<<<<< HEAD
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
@@ -294,7 +265,6 @@ orleans.codegen.cs
 =======
 >>>>>>> Initial commit
 =======
->>>>>>> Initial commit
 >>>>>>> Initial commit
 # RIA/Silverlight projects
 Generated_Code/
@@ -320,8 +290,6 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <<<<<<< HEAD
 # GhostDoc plugin setting file
 *.GhostDoc.xml
@@ -329,7 +297,6 @@ FakesAssemblies/
 =======
 >>>>>>> Initial commit
 =======
->>>>>>> Initial commit
 >>>>>>> Initial commit
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
@@ -348,8 +315,6 @@ FakesAssemblies/
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <<<<<<< HEAD
 
 # Paket dependency manager
@@ -365,5 +330,4 @@ paket-files/
 =======
 >>>>>>> Initial commit
 =======
->>>>>>> Initial commit
 >>>>>>> Initial commit
