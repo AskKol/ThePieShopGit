@@ -2,22 +2,44 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.0</TargetFramework>
+    <PackageTargetFallback>portable-net45+win8</PackageTargetFallback>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Views\" />
-    <Folder Include="wwwroot\" />
+    <Content Include="wwwroot\Content\Site.css" />
+    <Content Include="wwwroot\Images\bethanylogo.png" />
+    <Content Include="wwwroot\Images\carousel1.jpg" />
+    <Content Include="wwwroot\Images\carousel2.jpg" />
+    <Content Include="wwwroot\Images\carousel3.jpg" />
+    <Content Include="wwwroot\Images\pattern.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore" Version="1.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Razor" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Runtime" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
   </ItemGroup>
   <ItemGroup>
+    <None Update="Controllers\PieController.d.ts">
+      <DependentUpon>PieController.cs</DependentUpon>
+    </None>
+    <None Update="Models\ICategoryRepository.d.ts">
+      <DependentUpon>ICategoryRepository.cs</DependentUpon>
+    </None>
+    <None Update="Models\IPieRepository.d.ts">
+      <DependentUpon>IPieRepository.cs</DependentUpon>
+    </None>
+    <None Update="Models\MockPieRepository.d.ts">
+      <DependentUpon>MockPieRepository.cs</DependentUpon>
+    </None>
     <None Update="Startup.d.ts">
       <DependentUpon>Startup.cs</DependentUpon>
     </None>
