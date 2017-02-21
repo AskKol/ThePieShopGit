@@ -19,9 +19,12 @@ x64/
 x86/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
 bld/
@@ -30,8 +33,11 @@ bld/
 [Ll]og/
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
@@ -41,8 +47,13 @@ bld/
 [Oo]bj/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> Initial commit
+=======
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
@@ -106,12 +117,15 @@ ipch/
 *.ncb
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.opensdf
 *.sdf
 *.cachefile
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
 *.opendb
@@ -126,11 +140,17 @@ ipch/
 *.cachefile
 >>>>>>> Initial commit
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 =======
 *.opensdf
 *.sdf
 *.cachefile
 >>>>>>> Initial commit
+<<<<<<< HEAD
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
@@ -194,10 +214,13 @@ publish/
 *.azurePubxml
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
 # TODO: Comment the next line if you want to checkin your web deploy settings
@@ -205,11 +228,17 @@ publish/
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 >>>>>>> Initial commit
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 >>>>>>> Initial commit
 >>>>>>> Initial commit
 =======
+>>>>>>> Initial commit
+=======
+=======
+# TODO: Comment the next line if you want to checkin your web deploy settings 
+>>>>>>> Initial commit
 >>>>>>> Initial commit
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
@@ -217,9 +246,12 @@ publish/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
 # Microsoft Azure Web App publish settings. Comment the next line if you want to
@@ -230,8 +262,11 @@ PublishScripts/
 =======
 >>>>>>> Initial commit
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
@@ -245,9 +280,12 @@ PublishScripts/
 #!**/packages/repositories.config
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
 # NuGet v3's project.json files produces more ignoreable files
@@ -269,8 +307,11 @@ Package.StoreAssociation.xml
 _pkginfo.txt
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
@@ -283,8 +324,13 @@ csx/
 AppPackages/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> Initial commit
+=======
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
@@ -301,6 +347,10 @@ AppPackages/
 # Others
 ClientBin/
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+[Ss]tyle[Cc]op.*
+>>>>>>> Initial commit
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,9 +376,12 @@ orleans.codegen.cs
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
 # Since there are multiple workflows, uncomment next line to ignore bower_components
@@ -338,8 +391,11 @@ orleans.codegen.cs
 =======
 >>>>>>> Initial commit
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
@@ -368,9 +424,12 @@ FakesAssemblies/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
 # GhostDoc plugin setting file
@@ -379,8 +438,11 @@ FakesAssemblies/
 =======
 >>>>>>> Initial commit
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
@@ -402,9 +464,12 @@ FakesAssemblies/
 _Pvt_Extensions
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
 
@@ -421,8 +486,11 @@ paket-files/
 =======
 >>>>>>> Initial commit
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Initial commit
+>>>>>>> Initial commit
+=======
 >>>>>>> Initial commit
 =======
 >>>>>>> Initial commit
