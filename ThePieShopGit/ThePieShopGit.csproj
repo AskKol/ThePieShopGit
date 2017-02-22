@@ -13,23 +13,34 @@
     <Content Include="wwwroot\Images\carousel3.jpg" />
     <Content Include="wwwroot\Images\pattern.png" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Models\PieRepository.cs" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Razor" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Runtime" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.0-preview4-final" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+    <PackageReference Include="NuGet.CommandLine" Version="3.5.0" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Controllers\PieController.d.ts">
       <DependentUpon>PieController.cs</DependentUpon>
+    </None>
+    <None Update="Models\CategoryRepository.d.ts">
+      <DependentUpon>CategoryRepository.cs</DependentUpon>
     </None>
     <None Update="Models\ICategoryRepository.d.ts">
       <DependentUpon>ICategoryRepository.cs</DependentUpon>
