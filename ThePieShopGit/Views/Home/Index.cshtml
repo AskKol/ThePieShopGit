@@ -1,0 +1,18 @@
+﻿@model HomeViewModel
+
+<div class="fluid-container">
+    <div class="row">
+        @await Html.PartialAsync("Carousel")
+        <div>
+            <h2>Pies of the week</h2>
+            <h4>Our weekly selection - just for you!</h4>
+        </div>
+
+        <div class="row">
+            @foreach (var pie in Model.PiesOfTheWeek)
+            {
+                @Html.Partial("PieOfTheWeekSummary", pie)
+            }
+        </div>
+    </div>
+</div>
