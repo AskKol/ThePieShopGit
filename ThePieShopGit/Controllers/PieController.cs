@@ -20,13 +20,45 @@ namespace ThePieShopGit.Controllers
             _categoryRepository = categoryRepository;
         }
 
-        public ViewResult List()
+        public ViewResult List(string category)
         {
-            PiesListViewModel piesListViewModel = new PiesListViewModel();
-            piesListViewModel.Pies = _pieRepository.Pies;
-            piesListViewModel.CurrentCategory = "Cheese cakes";
+            IEnumerable<Pie> pies;
+            string currentCategory = string.Empty;
 
-            return View(piesListViewModel);
+            if (String.IsNullOrEmpty(category))
+            {
+                pies = _pieRepository.Pies.OrderBy(p => p.PieId);
+                currentCategory = "All pies";
+            }
+            else
+            {
+                pies = _pieRepository.Pies.Where(p => p.Category.CategoryName.ToLower().Contains(category.ToLower())).OrderBy(p => p.PieId);
+                currentCategory = _categoryRepository.Categories.FirstOrDefault(c=>c.CategoryName.ToLower().Contains(category.ToLower())).CategoryName;
+            }
+
+            return View(new PiesListViewModel()
+            {
+                Pies = pies,
+                CurrentCategory = currentCategory
+            });
+
+            //PiesListViewModel piesListViewModel = new PiesListViewModel();
+            //piesListViewModel.Pies = _pieRepository.Pies;
+            //piesListViewModel.CurrentCategory = "Cheese cakes";
+
+            //return View(piesListViewModel);
+        }
+
+        public IActionResult Details(int Id)
+        {
+            Pie aPie;
+            aPie = _pieRepository.Pies.Where(p => p.PieId == Id).FirstOrDefault();
+
+            if (aPie !=null)
+            {
+                return View("Details", aPie);
+            }
+            return NotFound();
         }
     }
 }

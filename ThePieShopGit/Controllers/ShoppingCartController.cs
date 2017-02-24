@@ -33,5 +33,27 @@ namespace ThePieShopGit.Controllers
 
             return View(shoppingCartViewModel);
         }
+
+        public RedirectToActionResult AddToShoppingCart(int pieId)
+        {
+            var selectedPie = _pieRepository.Pies.FirstOrDefault(p => p.PieId == pieId);
+
+            if (selectedPie != null)
+            {
+                _shoppingCart.AddToCart(selectedPie, 1);
+            }
+            return RedirectToAction("Index");
+        }
+   public RedirectToActionResult RemoveFromShoppingCart(int pieId)
+        {
+            var selectedPie = _pieRepository.Pies.FirstOrDefault(p => p.PieId == pieId);
+
+            if (selectedPie != null)
+            {
+                _shoppingCart.RemoveFromCart(selectedPie);
+            }
+            return RedirectToAction("Index");
+        }
+
     }
 }

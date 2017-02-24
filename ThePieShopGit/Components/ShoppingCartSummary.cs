@@ -20,12 +20,13 @@ namespace ThePieShopGit.Components
 
         public IViewComponentResult Invoke()
         {
-            var items = new List<ShoppingCartItem>()
-                {
-                new ShoppingCartItem(), new ShoppingCartItem()
-                };
+            //The code directly below this line was used to simply test if the shopping cart displays the item number
+            //var items = new List<ShoppingCartItem>()
+            //    {
+            //    new ShoppingCartItem(), new ShoppingCartItem()
+            //    };
 
-            // var items = _shoppingCart.GetShoppingCartItems();
+             var items = _shoppingCart.GetShoppingCartItems();
             _shoppingCart.ShoppingCartItems = items;
 
             var shoppingCartViewModel = new ShoppingCartViewModel()
