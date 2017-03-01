@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using ThePieShopGit.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace ThePieShopGit
 {
@@ -26,6 +27,7 @@ namespace ThePieShopGit
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(_configurationRoot.GetConnectionString("DefaultConnection")));
+            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
             //Using Mock Repositories
             //services.AddTransient<ICategoryRepository, MockCategoryRepository>();
             //services.AddTransient<IPieRepository, MockPieRepository>();
@@ -51,6 +53,7 @@ namespace ThePieShopGit
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseSession();
+            app.UseIdentity();
             //app.UseMvcWithDefaultRoute();
 
             app.UseMvc(routes =>
